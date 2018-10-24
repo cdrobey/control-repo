@@ -1,4 +1,4 @@
-class role::puppet_master {
+class role::puppetmaster {
   role::require_kernel('Linux')
 
   include profile::platform::baseline
